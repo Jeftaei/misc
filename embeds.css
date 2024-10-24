@@ -1,0 +1,9 @@
+/*
+Found this somewhere in vencord discord server, dont remember who sent and im too lazy to find
+this just rounds the corners of the embeds and extends the color on the left to the entire border
+*/
+
+#app-mount [class*=embedFull_] {
+  border: 3px solid;
+  border-radius: 10px;
+}
