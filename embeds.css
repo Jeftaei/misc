@@ -4,6 +4,6 @@ this just rounds the corners of the embeds and extends the color on the left to 
 */
 
 #app-mount [class*=embedFull_] {
-  border: 3px solid;
+  border: 3px solid hsla(0, calc(var(--saturation-factor, 1) * 100%), 50%, 1);
   border-radius: 10px;
 }
